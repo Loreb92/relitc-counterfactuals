@@ -54,10 +54,10 @@ bash scripts/finetune_conditional_masked_language_model.sh config/shared_configs
 Once the Conditional Masked Language Model has been fine-tuned on the dataset, counterfactuals are generated through the following command:
 
 ```
-bash scripts/generate_counterfactuals.sh config/shared_configs.sh config/tasks/{dataset}/{dataset}-wrt_predicted.sh config/tasks/{dataset}/{dataset}-generation_config.sh "confidence" "highest_first"
+bash scripts/generate_counterfactuals.sh config/shared_configs.sh config/tasks/{dataset}/{dataset}-wrt_predicted.sh config/tasks/{dataset}/{dataset}-generation_config.sh "{infilling_order}" "{direction}t"
 ```
 
-where {infilling_order} can be chosen among [ordered, confidence], and {direction} among [left_to_right, right_to_left] when `infilling_order=ordered`, and {direction} among [highest_first, lowest_first] when `infilling_order=confidence`.
+where `{infilling_order}` can be chosen among `[ordered, confidence]`, and `{direction}` among `[left_to_right, right_to_left]` when `infilling_order=ordered`, and `{direction}` among `[highest_first, lowest_first]` when `infilling_order=confidence`.
 
 The generated counterfactuals are saved in `results/generated_counterfactuals/{dataset}/`.
 
