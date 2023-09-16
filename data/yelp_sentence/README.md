@@ -1,0 +1,1 @@
+Dataset downloaded from https://github.com/lijuncen/Sentiment-and-Style-Transfer. Copy the content of the folder `data/yelp` in this directory.
