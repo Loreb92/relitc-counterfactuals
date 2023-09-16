@@ -42,7 +42,7 @@ This step reads the input datasets, eventually splits them into train, validatio
 
 #### Fine-tune the Conditional Masked Language Model
 
-This step fine-tune the pretrained Conditional Masked Language Model and store the model in the `results/finetuned_models/{dataset}/` folder. The command is:
+This step fine-tunes the pretrained Conditional Masked Language Model and store the model in the `results/finetuned_models/{dataset}/` folder. The command is:
 
 ```
 bash scripts/finetune_conditional_masked_language_model.sh config/shared_configs.sh config/tasks/{dataset}/{dataset}-wrt_predicted.sh config/tasks/{dataset}/{dataset}-finetuning_config.sh
