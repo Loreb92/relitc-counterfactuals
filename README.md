@@ -65,7 +65,20 @@ The generated counterfactuals are saved in `results/generated_counterfactuals/{d
 ## Citation
 
 ```bibtex
-@inproceedings{
-  ...
+@inproceedings{10.1145/3583780.3615029,
+author = {Betti, Lorenzo and Abrate, Carlo and Bonchi, Francesco and Kaltenbrunner, Andreas},
+title = {Relevance-based Infilling for Natural Language Counterfactuals},
+year = {2023},
+isbn = {9798400701245},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3583780.3615029},
+doi = {10.1145/3583780.3615029},
+booktitle = {Proceedings of the 32nd ACM International Conference on Information and Knowledge Management},
+pages = {88–98},
+numpages = {11},
+keywords = {masked language model, explainability, counterfactuals, NLP},
+location = {<conf-loc>, <city>Birmingham</city>, <country>United Kingdom</country>, </conf-loc>},
+series = {CIKM '23}
 }
 ```
