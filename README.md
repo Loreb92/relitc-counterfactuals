@@ -20,9 +20,9 @@ The subfolders in `data` contain instructions to download the datasets.
 
 #### Models
 
-The black-box classifiers used for the `Yelp` and `OLID` datasets are automatically downloaded from the Hugging Face Hub. The ones used for the `yelp_sentence` and `call_me` datasets are stored in the ZENODO repository of the project (TBA).
+The black-box classifiers used for the `Yelp` and `OLID` datasets are automatically downloaded from the Hugging Face Hub. The ones used for the `yelp_sentence` and `call_me` datasets are stored in the ZENODO repository of the project (https://zenodo.org/records/8242684).
 
-The fine-tuned Conditional Masked Language Models used in the paper are stored in the ZENODO repository as well (TBA).
+The fine-tuned Conditional Masked Language Models used in the paper are stored in the ZENODO repository as well (https://zenodo.org/records/8242684).
 
 
 ## Run experiments
